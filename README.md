@@ -6,7 +6,7 @@ Clonar el repo y dentro del directorio del repo ejecutar:
 
 cd meetup
 
-./mvnw spring-boot:run
+mvn spring-boot:run
 
 
 ## Swagger url

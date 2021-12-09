@@ -30,7 +30,7 @@ public class SpringFoxConfig {
                 .select()
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
-                .apis( RequestHandlerSelectors.basePackage( "com.santander" ) )
+                .apis( RequestHandlerSelectors.basePackage( "com.facuferro" ) )
                 .build().apiInfo(getApiInformation());
     }
 
